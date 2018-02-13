@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian">
+  <vtkMultiBlockDataSet>
+    <Block index="0">
+      <DataSet index="0" file="wall.vtu" name="wall-Wall"></DataSet>
+    </Block>
+    <Block index="1">
+      <DataSet index="0" file="symX.vtu" name="symX-Symmetry"></DataSet>
+    </Block>
+    <Block index="2">
+      <DataSet index="0" file="symZ+.vtu" name="symZ+-Symmetry001"></DataSet>
+    </Block>
+    <Block index="3">
+      <DataSet index="0" file="symZ-.vtu" name="symZ--Symmetry001"></DataSet>
+    </Block>
+    <Block index="4">
+      <DataSet index="0" file="grid.vtu" name="Mesh"></DataSet>
+    </Block>
+  </vtkMultiBlockDataSet>
+</VTKFile>

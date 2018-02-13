@@ -1,0 +1,62 @@
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="14" NumberOfCells="8">
+      <PointData Scalars="FFID">
+        <DataArray type="Int32" Name="FFID" format="ascii">
+          381
+          396
+          397
+          406
+          414
+          419
+          439
+          444
+          454
+          460
+          482
+          490
+          493
+          495
+        </DataArray>
+        </PointData>
+      <Points>
+        <DataArray type="Float32" Name="Points" NumberOfComponents="3" format="ascii" RangeMin="0" RangeMax="1.0">
+          0.707100 0.000000 -12.000000
+          1.875000 0.000000 -12.000000
+          1.250000 0.000000 -12.000000
+          0.512480 0.512480 -12.000000
+          0.000000 1.875000 -12.000000
+          0.512480 1.250000 -12.000000
+          1.130478 1.130478 -12.000000
+          1.781250 0.730284 -12.000000
+          0.000000 0.000000 -12.000000
+          1.250000 0.512480 -12.000000
+          0.000000 0.707100 -12.000000
+          1.415099 1.415099 -12.000000
+          0.000000 1.250000 -12.000000
+          0.730284 1.781250 -12.000000
+        </DataArray>
+      </Points>
+        <Cells>
+          <DataArray type="Int32" Name="connectivity" format="ascii" RangeMin="0" RangeMax="771">
+            13 5 6 11
+            6 9 7 11
+            6 9 3 5
+            5 12 4 13
+            3 0 2 9
+            2 1 7 9
+            5 3 10 12
+            3 0 8 10
+          </DataArray>
+          <DataArray type="Int32" Name="offsets" format="ascii" RangeMin="4" RangeMax="32">
+            4 8 12 16 20 24 
+            28 32 
+          </DataArray>
+          <DataArray type="UInt8" Name="types" format="ascii" RangeMin="9" RangeMax="9">
+            9 9 9 9 9 9 
+            9 9 
+          </DataArray>
+        </Cells>
+      </Piece>
+    </UnstructuredGrid>
+</VTKFile>

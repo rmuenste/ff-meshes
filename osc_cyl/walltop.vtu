@@ -1,0 +1,80 @@
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="22" NumberOfCells="10">
+      <PointData Scalars="FFID">
+        <DataArray type="Int32" Name="FFID" format="ascii">
+          62
+          65
+          67
+          69
+          72
+          73
+          74
+          75
+          76
+          77
+          78
+          79
+          80
+          81
+          82
+          83
+          84
+          85
+          86
+          87
+          88
+          89
+        </DataArray>
+        </PointData>
+      <Points>
+        <DataArray type="Float32" Name="Points" NumberOfComponents="3" format="ascii" RangeMin="0" RangeMax="1.0">
+          0.000000 0.410000 0.000000
+          0.000000 0.410000 0.102500
+          2.200000 0.410000 0.102500
+          2.200000 0.410000 -0.000000
+          0.550000 0.410000 0.000000
+          0.550000 0.410000 0.102500
+          0.760000 0.410000 0.000000
+          0.980000 0.410000 0.102500
+          0.980000 0.410000 0.000000
+          0.860000 0.410000 0.102500
+          0.860000 0.410000 0.000000
+          0.760000 0.410000 0.102500
+          1.430000 0.410000 0.102500
+          1.330000 0.410000 0.000000
+          1.650000 0.410000 0.000000
+          1.220000 0.410000 0.102500
+          1.100000 0.410000 0.102500
+          1.220000 0.410000 0.000000
+          1.330000 0.410000 0.102500
+          1.650000 0.410000 0.102500
+          1.100000 0.410000 0.000000
+          1.430000 0.410000 0.000000
+        </DataArray>
+      </Points>
+        <Cells>
+          <DataArray type="Int32" Name="connectivity" format="ascii" RangeMin="0" RangeMax="105">
+            4 5 1 0
+            4 5 11 6
+            6 11 9 10
+            9 7 8 10
+            7 16 20 8
+            16 20 17 15
+            13 18 15 17
+            21 14 19 12
+            21 13 18 12
+            14 3 2 19
+          </DataArray>
+          <DataArray type="Int32" Name="offsets" format="ascii" RangeMin="4" RangeMax="40">
+            4 8 12 16 20 24 
+            28 32 36 40 
+          </DataArray>
+          <DataArray type="UInt8" Name="types" format="ascii" RangeMin="9" RangeMax="9">
+            9 9 9 9 9 9 
+            9 9 9 9 
+          </DataArray>
+        </Cells>
+      </Piece>
+    </UnstructuredGrid>
+</VTKFile>
